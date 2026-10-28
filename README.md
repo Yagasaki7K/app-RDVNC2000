@@ -32,8 +32,8 @@ The project is a homage to the camcorder aesthetic seen in _Cyberpunk: Edgerunne
 
 ## Features
 
-- 📷 **Live camera capture** via `getUserMedia`, targeting SD resolution (640×480 @ 24 fps) to match the VX2000's native output.
-- 🎞️ **Real-time analog emulation** through a custom GLSL fragment shader running on a `<canvas>`:
+- **Live camera capture** via `getUserMedia`, targeting SD resolution (640×480 @ 24 fps) to match the VX2000's native output.
+- **Real-time analog emulation** through a custom GLSL fragment shader running on a `<canvas>`:
     - Film grain / sensor noise
     - Chromatic aberration (RGB channel separation)
     - Tungsten white-balance drift (green/blue cast)
@@ -41,13 +41,13 @@ The project is a homage to the camcorder aesthetic seen in _Cyberpunk: Edgerunne
     - Vignette
     - Desaturation and "dirty" contrast
     - Subtle frame jitter
-- 🎛️ **Live parameter control** — three sliders adjust noise, aberration, and tungsten tint on the fly.
-- ⏺️ **In-browser recording** — the processed canvas stream plus the original microphone audio are combined into a `MediaRecorder` output (WebM/VP9), downloadable as a "tape".
-- 📼 **Camcorder OSD** — REC/STBY indicator, tape counter, and on-screen readouts (SD 640×480, 24fps, WB 3200K, ISO AUTO).
-- 🎨 **Two visual themes**, switchable with a single button next to REC:
+- **Live parameter control** — three sliders adjust noise, aberration, and tungsten tint on the fly.
+- **In-browser recording** — the processed canvas stream plus the original microphone audio are combined into a `MediaRecorder` output (WebM/VP9), downloadable as a "tape".
+- **Camcorder OSD** — REC/STBY indicator, tape counter, and on-screen readouts (SD 640×480, 24fps, WB 3200K, ISO AUTO).
+- **Two visual themes**, switchable with a single button next to REC:
     - **Cyberpunk 2077** — neon yellow `#fcee0a`, cyan `#00f0ff`, magenta `#ff003c`, chamfered corners, scanlines, glitch title.
     - **VX2000 Fullscreen** — the viewfinder fills the entire screen, the control panel collapses into a small floating REC + THEME bar, and the OSD turns phosphorescent green.
-- 📱 **Mobile-first & installable** — works as a PWA, runs entirely client-side, no data ever leaves the device.
+- **Mobile-first & installable** — works as a PWA, runs entirely client-side, no data ever leaves the device.
 
 ---
 
